@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poyo's website!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="cookieContainer"></div>
+  <div class="header minicontainer">
+        <script>
+          var audio = new Audio("https://dl.dropbox.com/scl/fi/uvrhoeozump66axc04l4t/poyo-time-d.mp3?rlkey=vofc8ao3is1jwyq6u6opoalfz&st=eb9t313s&ampdl=0");
+          
+          function hidePie() {
+            const pie = document.getElementById("pie");
+            alert("Hey! Don't touch my pie! >:3");
+              pie.style.display = "none";
+          }
+        </script>
+          <input type="image" src="images/still-poyo.png" onclick="audio.play()" id="still-poyo">
+          <h1 id="smol" class="title">Poyo's Cookie Bakery!</h1>
+          <p id="smol">v2.2, cookie edition.</p>
+          <img src="https://i.ibb.co/kxm3MfN/pie1.png" id="pie" onclick='hidePie()'>
+    </div>
+    <div class="container">
+      <div class="navbar-left">
+      <h1 class="medium-weight overlay-img" style="display:inline; margin:0; padding:0;">(^v^)</h1>
+      <img class="overlay-img" src="images/forgettablename.gif" style="transform:translate(-1vw, 1.5vh);">
+        <div class="content">
+            <h2>About me</h2>
+            <p>Hi there! My name's Poyo!, and I code retro websites. I also love cars, engineering, cookies and chatting with randoms in the internet.</p>
+            <div>
+              <b class="subrallado">Contact Me</b>
+              <ul>
+                <li>Email: <a href="mailto:poyo@lexiqqq.com">poyo@lexiqqq.com</a></li>
+                <li>Discord: <u>@dapoyo</u></li>
+              </ul>
+              
+            </div>
+        </div>
+      </div>
+      <div class="navbar-right">
+        <div class="links" id="navbar-right">
+        <h2>Ma links(WIP) :3</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#cookie" id="spawnCookie">Wanna Cookie?</a><script src="js/cookie.js"></script></li>
+        </ul>
+        <div class="subcontainer">
+          <h2 id="smol">Stats</h2>
+          <ul>
+            <li>118k visits</li>
+            <li>Size: 12MB</li>
+            <li>Dev time: 3 Years</li>
+            <li>Revamp Time: 3 days</li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  <div class="footer">
+            <span class="separator"></span>
+            <p>&copy; 2024 Poyo!. All rights reserved.</p>
+            <a class="hidden-link" id="marquee-link" href="#secret"><marquee id="marquee">Poyos be workin hard too!</marquee></a>
+    </div>
+</body>
+</html>
