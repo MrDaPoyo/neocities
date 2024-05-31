@@ -107,3 +107,6 @@ ul {
 .medium-weight {
   font-weight: 200;
 }
+.inline {
+  display: inline;
+}
