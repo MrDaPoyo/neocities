@@ -6,7 +6,7 @@ fetch(url)
  .then(data => {
     console.log(data);
     
-    views.innerHTML = data.info.views;
-    updatedAt.innerHTML = data.info.last_updated;
+    views.innerHTML = "Views: " + data.info.views;
+    updatedAt.innerHTML = "Last updated: " + data.info.last_updated;
   })
  .catch(error => console.error("Error:", error));

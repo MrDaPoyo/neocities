@@ -61,6 +61,7 @@ marquee {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  z-index: 10;
 }
 #still-poyo {
   transform: translate(0,15%);
