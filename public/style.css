@@ -47,6 +47,8 @@ marquee {
   display: flex;
   flex-direction: column;
   width: 30vw;
+  border-radius: 20px;
+  padding: 1vh;
   
 }
 .minicontainer {
@@ -109,4 +111,15 @@ ul {
 }
 .inline {
   display: inline;
+}
+
+.stat-li {
+  padding:0;
+  margin:0;
+  
+}
+
+.button {
+  width: 88px;
+  height: 31x;
 }
